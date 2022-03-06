@@ -1,0 +1,50 @@
+[C:\~]$ ssh y2018142173@class.corelab.or.kr:20202
+
+
+Host 'class.corelab.or.kr' resolved to 165.132.122.214.
+Connecting to 165.132.122.214:20202...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.13.0-27-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+199 updates can be installed immediately.
+2 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+
+2 updates could not be installed automatically. For more details,
+see /var/log/unattended-upgrades/unattended-upgrades.log
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+*** System restart required ***
+Last login: Sun Mar  6 21:27:39 2022 from 10.35.103.91
+y2018142173@corelab-class:~$ mkdir myQuiz
+y2018142173@corelab-class:~$ ls -al
+total 60
+drwxr-xr-x   8 y2018142173 y2018142173 4096  3월  6 23:05 .
+drwxr-xr-x 104 root        root        4096  3월  3 20:27 ..
+-rw-------   1 y2018142173 y2018142173  494  3월  6 17:55 .bash_history
+-rw-r--r--   1 y2018142173 y2018142173  220  3월  3 10:00 .bash_logout
+-rw-r--r--   1 y2018142173 y2018142173 3771  3월  3 10:00 .bashrc
+drwxrwxr-x   2 y2018142173 y2018142173 4096  3월  6 17:54 boo
+drwxrwxr-x   4 y2018142173 y2018142173 4096  3월  6 16:55 .cache
+drwx------   4 y2018142173 y2018142173 4096  3월  6 16:55 .config
+drwxr-xr-x   3 y2018142173 y2018142173 4096  3월  6 16:55 .local
+drwxrwxr-x   2 y2018142173 y2018142173 4096  3월  6 23:05 myQuiz
+-rw-r--r--   1 y2018142173 y2018142173  807  3월  3 10:00 .profile
+drwxr-xr-x   2 y2018142173 y2018142173 4096  3월  6 17:48 .vim
+-rw-------   1 y2018142173 y2018142173 4856  3월  6 17:54 .viminfo
+-rw-------   1 y2018142173 y2018142173  118  3월  6 23:04 .Xauthority
+y2018142173@corelab-class:~$ cd myQuiz
+y2018142173@corelab-class:~/myQuiz$ vi a.txt
+y2018142173@corelab-class:~/myQuiz$ cat a.txt
+#include <iostream>
+using namespace std;
+int main(){
+cout << "Hello World";
+return 0;
+}
