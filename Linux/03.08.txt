@@ -1,0 +1,304 @@
+y2018142173@corelab-class~$ dir
+boo  myQuiz
+y2018142173@corelab-class~$ logout
+Connection to class.corelab.or.kr closed.
+
+CUsers하늬하루dir
+ Volume in drive C has no label.
+ Volume Serial Number is 4E17-98F9
+
+ Directory of CUsers하늬하루
+
+2022-03-08  오후 0318    DIR          .
+2022-03-08  오후 0318    DIR          ..
+2021-09-23  오전 0414    DIR          .android
+2022-01-26  오후 0812    DIR          .atom
+2021-10-04  오후 0950               421 .bash_history
+2021-09-23  오전 0414    DIR          .BigNox
+2022-01-28  오후 0900    DIR          .cache
+2021-09-10  오후 0516    DIR          .conda
+2022-01-28  오후 0900    DIR          .eclipse
+2021-10-04  오후 0930                55 .gitconfig
+2021-05-22  오후 0801    DIR          .idlerc
+2021-09-10  오후 0540    DIR          .ipynb_checkpoints
+2021-09-10  오후 0412    DIR          .ipython
+2021-09-10  오후 0442    DIR          .jupyter
+2022-02-04  오후 0113    DIR          .lemminx
+2021-10-04  오후 0930                20 .lesshst
+2022-03-08  오후 0229    DIR          .ssh
+2021-05-19  오후 0233    DIR          .vscode
+2021-05-14  오전 0608    DIR          3D Objects
+2021-05-14  오후 0442    DIR          ansel
+2021-05-14  오전 0608    DIR          Contacts
+2021-09-23  오전 0419               295 d4ac4633ebd6440fa397b84f1bc94a3c.7z
+2022-01-28  오후 0929                 0 dir
+2021-09-15  오전 0922    DIR          Documents
+2022-03-08  오후 0230    DIR          Downloads
+2022-02-04  오후 0111    DIR          eclipse-workspace
+2021-12-31  오후 0113    DIR          Favorites
+2022-03-08  오후 0214    DIR          hello
+2021-09-23  오전 0414                66 inittk.ini
+2021-09-23  오전 0414                41 inst.ini
+2021-05-14  오전 0608    DIR          Links
+2021-05-14  오전 0608    DIR          Music
+2021-09-23  오전 0414    DIR          Nox_share
+2021-09-23  오전 0414                45 nuuid.ini
+2021-09-15  오전 0921    DIR          OneDrive
+2022-03-08  오후 0200    DIR          OneDrive - SangMyung University
+2021-05-14  오전 0608    DIR          Saved Games
+2021-05-14  오전 0609    DIR          Searches
+2022-03-08  오후 0318    DIR          test
+2021-09-10  오후 0540    DIR          Test_project
+2021-09-10  오후 0502    DIR          Untitled Folder
+2021-09-10  오후 0502               364 Untitled.ipynb
+2021-09-10  오후 0443                72 Untitled1.ipynb
+2021-09-10  오후 0540                72 Untitled2.ipynb
+2021-09-23  오전 0414                53 useruid.ini
+2022-03-08  오후 0200    DIR          Videos
+2021-09-23  오전 0414    DIR          vmlogs
+              12 File(s)          1,504 bytes
+              35 Dir(s)  735,948,759,040 bytes free
+
+CUsers하늬하루cd test
+
+CUsers하늬하루testdir
+ Volume in drive C has no label.
+ Volume Serial Number is 4E17-98F9
+
+ Directory of CUsers하늬하루test
+
+2022-03-08  오후 0318    DIR          .
+2022-03-08  오후 0318    DIR          ..
+2022-03-08  오후 0318                 6 a.txt.txt
+               1 File(s)              6 bytes
+               2 Dir(s)  735,947,845,632 bytes free
+
+CUsers하늬하루testscp -P 20202 a.txt y2018142173@class.corelab.or.kr~
+y2018142173@class.corelab.or.kr's password
+a.txt No such file or directory
+
+CUsers하늬하루testscp -P 20202 a.txt y2018142173@class.corelab.or.kr~
+kex_exchange_identification Connection closed by remote host
+lost connection
+
+CUsers하늬하루testscp -P 20202 a.txt y2018142173@class.corelab.or.kr~
+y2018142173@class.corelab.or.kr's password
+a.txt                                                                                                                      100%    6     0.8KBs   0000
+
+CUsers하늬하루testcd ..
+
+CUsers하늬하루ssh -p 20202 y2018142173@class.corelab.or.kr
+y2018142173@class.corelab.or.kr's password
+Welcome to Ubuntu 20.04.2 LTS (GNULinux 5.13.0-27-generic x86_64)
+
+  Documentation  httpshelp.ubuntu.com
+  Management     httpslandscape.canonical.com
+  Support        httpsubuntu.comadvantage
+
+199 updates can be installed immediately.
+2 of these updates are security updates.
+To see these additional updates run apt list --upgradable
+
+
+2 updates could not be installed automatically. For more details,
+see varlogunattended-upgradesunattended-upgrades.log
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+ System restart required 
+Last login Tue Mar  8 151930 2022 from 10.35.103.91
+y2018142173@corelab-class~$ ls
+a.txt  boo  myQuiz
+y2018142173@corelab-class~$ cp a.txt b.txt
+y2018142173@corelab-class~$ ls
+a.txt  boo  b.txt  myQuiz
+y2018142173@corelab-class~$ which is
+y2018142173@corelab-class~$ whereis ls
+ls usrbinls usrsharemanman1ls.1.gz
+y2018142173@corelab-class~$ which ls
+usrbinls
+y2018142173@corelab-class~$ echo Hello World
+Hello World
+y2018142173@corelab-class~$ cat a.txt
+hahahay2018142173@corelab-class~$ mv b.txt c.txt
+y2018142173@corelab-class~$ ls
+a.txt  boo  c.txt  myQuiz
+y2018142173@corelab-class~$ rm c.txt
+y2018142173@corelab-class~$ ls
+a.txt  boo  myQuiz
+y2018142173@corelab-class~$ exit
+logout
+Connection to class.corelab.or.kr closed.
+
+CUsers하늬하루cd test
+
+CUsers하늬하루testscp -P 20202 a.txt y2018142173@class.corelab.or.kr~b.txt .
+The file cannot be copied onto itself.
+        0 file(s) copied.
+y2018142173@class.corelab.or.kr's password
+Permission denied, please try again.
+y2018142173@class.corelab.or.kr's password
+Permission denied, please try again.
+y2018142173@class.corelab.or.kr's password
+scp homey2018142173b.txt No such file or directory
+
+CUsers하늬하루testssh -p 20202 y2018142173@class.corelab.or.kr
+y2018142173@class.corelab.or.kr's password
+Welcome to Ubuntu 20.04.2 LTS (GNULinux 5.13.0-27-generic x86_64)
+
+  Documentation  httpshelp.ubuntu.com
+  Management     httpslandscape.canonical.com
+  Support        httpsubuntu.comadvantage
+
+199 updates can be installed immediately.
+2 of these updates are security updates.
+To see these additional updates run apt list --upgradable
+
+
+2 updates could not be installed automatically. For more details,
+see varlogunattended-upgradesunattended-upgrades.log
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+ System restart required 
+Last login Tue Mar  8 152509 2022 from 10.35.103.91
+y2018142173@corelab-class~$ mv a.txt b.txt
+y2018142173@corelab-class~$ logout
+Connection to class.corelab.or.kr closed.
+
+CUsers하늬하루testscp -P 20202 a.txt y2018142173@class.corelab.or.kr~b.txt .
+The file cannot be copied onto itself.
+        0 file(s) copied.
+y2018142173@class.corelab.or.kr's password
+b.txt                                                                                                                      100%    6     1.0KBs   0000
+
+CUsers하늬하루testssh -p 20202 y2018142173@class.corelab.or.kr
+y2018142173@class.corelab.or.kr's password
+Welcome to Ubuntu 20.04.2 LTS (GNULinux 5.13.0-27-generic x86_64)
+
+  Documentation  httpshelp.ubuntu.com
+  Management     httpslandscape.canonical.com
+  Support        httpsubuntu.comadvantage
+
+199 updates can be installed immediately.
+2 of these updates are security updates.
+To see these additional updates run apt list --upgradable
+
+
+2 updates could not be installed automatically. For more details,
+see varlogunattended-upgradesunattended-upgrades.log
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+ System restart required 
+Last login Tue Mar  8 152833 2022 from 10.35.103.91
+y2018142173@corelab-class~$ ls
+boo  b.txt  myQuiz
+y2018142173@corelab-class~$ ls -alh
+total 64K
+drwxr-xr-x   8 y2018142173 y2018142173 4.0K  3월  8 1528 .
+drwxr-xr-x 103 root        root        4.0K  3월  8 1232 ..
+-rw-------   1 y2018142173 y2018142173  835  3월  8 1528 .bash_history
+-rw-r--r--   1 y2018142173 y2018142173  220  3월  3 1000 .bash_logout
+-rw-r--r--   1 y2018142173 y2018142173 3.7K  3월  3 1000 .bashrc
+drwxrwxr-x   2 y2018142173 y2018142173 4.0K  3월  6 1754 boo
+-rw-rw-r--   1 y2018142173 y2018142173    6  3월  8 1524 b.txt
+drwxrwxr-x   4 y2018142173 y2018142173 4.0K  3월  6 1655 .cache
+drwx------   4 y2018142173 y2018142173 4.0K  3월  6 1655 .config
+drwxr-xr-x   3 y2018142173 y2018142173 4.0K  3월  6 1655 .local
+drwxrwxr-x   2 y2018142173 y2018142173 4.0K  3월  6 2313 myQuiz
+-rw-r--r--   1 y2018142173 y2018142173  807  3월  3 1000 .profile
+drwxr-xr-x   2 y2018142173 y2018142173 4.0K  3월  6 1748 .vim
+-rw-------   1 y2018142173 y2018142173 7.9K  3월  6 2313 .viminfo
+-rw-------   1 y2018142173 y2018142173  177  3월  8 1423 .Xauthority
+y2018142173@corelab-class~$ ls -al
+total 64
+drwxr-xr-x   8 y2018142173 y2018142173 4096  3월  8 1528 .
+drwxr-xr-x 103 root        root        4096  3월  8 1232 ..
+-rw-------   1 y2018142173 y2018142173  835  3월  8 1528 .bash_history
+-rw-r--r--   1 y2018142173 y2018142173  220  3월  3 1000 .bash_logout
+-rw-r--r--   1 y2018142173 y2018142173 3771  3월  3 1000 .bashrc
+drwxrwxr-x   2 y2018142173 y2018142173 4096  3월  6 1754 boo
+-rw-rw-r--   1 y2018142173 y2018142173    6  3월  8 1524 b.txt
+drwxrwxr-x   4 y2018142173 y2018142173 4096  3월  6 1655 .cache
+drwx------   4 y2018142173 y2018142173 4096  3월  6 1655 .config
+drwxr-xr-x   3 y2018142173 y2018142173 4096  3월  6 1655 .local
+drwxrwxr-x   2 y2018142173 y2018142173 4096  3월  6 2313 myQuiz
+-rw-r--r--   1 y2018142173 y2018142173  807  3월  3 1000 .profile
+drwxr-xr-x   2 y2018142173 y2018142173 4096  3월  6 1748 .vim
+-rw-------   1 y2018142173 y2018142173 7996  3월  6 2313 .viminfo
+-rw-------   1 y2018142173 y2018142173  177  3월  8 1423 .Xauthority
+y2018142173@corelab-class~$ mkdir public_html
+y2018142173@corelab-class~$ ls -al
+total 68
+drwxr-xr-x   9 y2018142173 y2018142173 4096  3월  8 1532 .
+drwxr-xr-x 103 root        root        4096  3월  8 1232 ..
+-rw-------   1 y2018142173 y2018142173  835  3월  8 1528 .bash_history
+-rw-r--r--   1 y2018142173 y2018142173  220  3월  3 1000 .bash_logout
+-rw-r--r--   1 y2018142173 y2018142173 3771  3월  3 1000 .bashrc
+drwxrwxr-x   2 y2018142173 y2018142173 4096  3월  6 1754 boo
+-rw-rw-r--   1 y2018142173 y2018142173    6  3월  8 1524 b.txt
+drwxrwxr-x   4 y2018142173 y2018142173 4096  3월  6 1655 .cache
+drwx------   4 y2018142173 y2018142173 4096  3월  6 1655 .config
+drwxr-xr-x   3 y2018142173 y2018142173 4096  3월  6 1655 .local
+drwxrwxr-x   2 y2018142173 y2018142173 4096  3월  6 2313 myQuiz
+-rw-r--r--   1 y2018142173 y2018142173  807  3월  3 1000 .profile
+drwxrwxr-x   2 y2018142173 y2018142173 4096  3월  8 1532 public_html
+drwxr-xr-x   2 y2018142173 y2018142173 4096  3월  6 1748 .vim
+-rw-------   1 y2018142173 y2018142173 7996  3월  6 2313 .viminfo
+-rw-------   1 y2018142173 y2018142173  177  3월  8 1423 .Xauthority
+y2018142173@corelab-class~$ ls
+boo  b.txt  myQuiz  public_html
+y2018142173@corelab-class~$ chmod 755 public_html
+y2018142173@corelab-class~$ ls -lh
+total 16K
+drwxrwxr-x 2 y2018142173 y2018142173 4.0K  3월  6 1754 boo
+-rw-rw-r-- 1 y2018142173 y2018142173    6  3월  8 1524 b.txt
+drwxrwxr-x 2 y2018142173 y2018142173 4.0K  3월  6 2313 myQuiz
+drwxr-xr-x 2 y2018142173 y2018142173 4.0K  3월  8 1532 public_html
+y2018142173@corelab-class~$ cal
+      3월 2022
+일 월 화 수 목 금 토
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30 31
+
+y2018142173@corelab-class~$ cal  result
+y2018142173@corelab-class~$ ls
+boo  b.txt  myQuiz  public_html  result
+y2018142173@corelab-class~$ cat result
+      3월 2022
+일 월 화 수 목 금 토
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30 31
+
+y2018142173@corelab-class~$ man ls
+y2018142173@corelab-class~$ y2018142173@corelab-class~$
+y2018142173@corelab-class~$ man2 mkdir
+
+Command 'man2' not found, did you mean
+
+  command 'mat2' from deb mat2 (0.10.1-1)
+  command 'man' from deb man-db (2.9.1-1)
+
+Try apt install deb name
+
+y2018142173@corelab-class~$ man 2 mkdire
+No manual entry for mkdire in section 2
+y2018142173@corelab-class~$ man 2 mkdir
+y2018142173@corelab-class~$ y2018142173@corelab-class~$ exit
+logout
+Connection to class.corelab.or.kr closed.
+
+CUsers하늬하루testcd ..
+
+CUsers하늬하루cd test
+
+CUsers하늬하루testscp -P 20202 y2018142173@class.corelab.or.kr~b.txt .
+y2018142173@class.corelab.or.kr's password
+b.txt                                                                                                                      100%    6     0.2KBs   0000
+
+CUsers하늬하루testscp -P 20202 b.txt y2018142173@class.corelab.or.kr~
+y2018142173@class.corelab.or.kr's password
+b.txt                                                                                                                      100%    6     0.8KBs   0000
+
+CUsers하늬하루testls -l
