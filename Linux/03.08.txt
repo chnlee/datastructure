@@ -1,4 +1,5 @@
 03.08
+scp 사용방법 기억하기!
 
 y2018142173@corelab-class~$ dir
 boo  myQuiz
