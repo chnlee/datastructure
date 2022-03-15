@@ -1,0 +1,22 @@
+1. vi Makefile (if there are header files and c type files)
+
+CC=gcc
+SRCS = $(shell ls *.c) 
+OBJS = $(SRCS:.c=.o)
+HDRS = $(shell ls *.h)
+
+testProg : $(OBJS)
+	$(CC) $(OBJS) -lc -o testProg
+%.o : %.c 
+	$(CC) -c $<
+
+$(OBJS) : $(HDRS)
+
+2. vi Makefile(if there is cpp file)
+all: filename.exe
+
+filename.exe: filename.cpp
+	g++ filname.cpp -lc -o filename.exe
+
+clean:
+	rm *.o filename.exe
